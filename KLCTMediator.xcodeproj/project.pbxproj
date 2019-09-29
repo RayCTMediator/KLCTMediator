@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360E03A6B871584E8AF2B532 /* Pods_KLCTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCB0A7A3154CD32FF875ABD /* Pods_KLCTMediator.framework */; };
+		F7495452233F6493003F7A59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7495451233F6493003F7A59 /* AppDelegate.m */; };
+		F7495455233F6493003F7A59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7495454233F6493003F7A59 /* ViewController.m */; };
+		F7495458233F6493003F7A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7495456233F6493003F7A59 /* Main.storyboard */; };
+		F749545A233F64AB003F7A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7495459233F64AB003F7A59 /* Assets.xcassets */; };
+		F749545D233F64AB003F7A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F749545B233F64AB003F7A59 /* LaunchScreen.storyboard */; };
+		F7495460233F64AB003F7A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F749545F233F64AB003F7A59 /* main.m */; };
+		F74954DA23404FB1003F7A59 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74954D923404FB1003F7A59 /* BViewController.m */; };
+		F7495532234082C2003F7A59 /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = F7495531234082C2003F7A59 /* Target_B.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FB7F77BA44792888EC5685A /* Pods-KLCTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLCTMediator.release.xcconfig"; path = "Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator.release.xcconfig"; sourceTree = "<group>"; };
+		9CFABA1996BCC6B12246557A /* Pods-KLCTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLCTMediator.debug.xcconfig"; path = "Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		CFCB0A7A3154CD32FF875ABD /* Pods_KLCTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLCTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F749544D233F6493003F7A59 /* KLCTMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLCTMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7495450233F6493003F7A59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7495451233F6493003F7A59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7495453233F6493003F7A59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7495454233F6493003F7A59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7495457233F6493003F7A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7495459233F64AB003F7A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F749545C233F64AB003F7A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F749545E233F64AB003F7A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F749545F233F64AB003F7A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F74954D823404FB1003F7A59 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BViewController.h; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/KLCTMediator/KLCTMediator/BViewController/BViewController.h; sourceTree = "<group>"; };
+		F74954D923404FB1003F7A59 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BViewController.m; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/KLCTMediator/KLCTMediator/BViewController/BViewController.m; sourceTree = "<group>"; };
+		F7495530234082C2003F7A59 /* Target_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Target_B.h; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/KLCTMediator/KLCTMediator/Targets/Target_B.h; sourceTree = "<group>"; };
+		F7495531234082C2003F7A59 /* Target_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Target_B.m; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/KLCTMediator/KLCTMediator/Targets/Target_B.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F749544A233F6493003F7A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360E03A6B871584E8AF2B532 /* Pods_KLCTMediator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0776B88FAF195211BAC8519A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CFABA1996BCC6B12246557A /* Pods-KLCTMediator.debug.xcconfig */,
+				0FB7F77BA44792888EC5685A /* Pods-KLCTMediator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37C9F5BAEE8B76A570E16033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB0A7A3154CD32FF875ABD /* Pods_KLCTMediator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7495444233F6493003F7A59 = {
+			isa = PBXGroup;
+			children = (
+				F749544F233F6493003F7A59 /* KLCTMediator */,
+				F749544E233F6493003F7A59 /* Products */,
+				0776B88FAF195211BAC8519A /* Pods */,
+				37C9F5BAEE8B76A570E16033 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F749544E233F6493003F7A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F749544D233F6493003F7A59 /* KLCTMediator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F749544F233F6493003F7A59 /* KLCTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				F749552F23408290003F7A59 /* Targets */,
+				F74954D423404F7C003F7A59 /* AViewController */,
+				F74954D323404F7C003F7A59 /* BViewController */,
+				F7495450233F6493003F7A59 /* AppDelegate.h */,
+				F7495451233F6493003F7A59 /* AppDelegate.m */,
+				F7495453233F6493003F7A59 /* ViewController.h */,
+				F7495454233F6493003F7A59 /* ViewController.m */,
+				F7495456233F6493003F7A59 /* Main.storyboard */,
+				F7495459233F64AB003F7A59 /* Assets.xcassets */,
+				F749545B233F64AB003F7A59 /* LaunchScreen.storyboard */,
+				F749545E233F64AB003F7A59 /* Info.plist */,
+				F749545F233F64AB003F7A59 /* main.m */,
+			);
+			path = KLCTMediator;
+			sourceTree = "<group>";
+		};
+		F74954D323404F7C003F7A59 /* BViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F74954D823404FB1003F7A59 /* BViewController.h */,
+				F74954D923404FB1003F7A59 /* BViewController.m */,
+			);
+			path = BViewController;
+			sourceTree = "<group>";
+		};
+		F74954D423404F7C003F7A59 /* AViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AViewController;
+			sourceTree = "<group>";
+		};
+		F749552F23408290003F7A59 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				F7495530234082C2003F7A59 /* Target_B.h */,
+				F7495531234082C2003F7A59 /* Target_B.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F749544C233F6493003F7A59 /* KLCTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7495463233F64AB003F7A59 /* Build configuration list for PBXNativeTarget "KLCTMediator" */;
+			buildPhases = (
+				774643E4BB7B0B7B24A4F17A /* [CP] Check Pods Manifest.lock */,
+				F7495449233F6493003F7A59 /* Sources */,
+				F749544A233F6493003F7A59 /* Frameworks */,
+				F749544B233F6493003F7A59 /* Resources */,
+				C552F2833D49F00A67753B77 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLCTMediator;
+			productName = KLCTMediator;
+			productReference = F749544D233F6493003F7A59 /* KLCTMediator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7495445233F6493003F7A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Ray;
+				TargetAttributes = {
+					F749544C233F6493003F7A59 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = F7495448233F6493003F7A59 /* Build configuration list for PBXProject "KLCTMediator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7495444233F6493003F7A59;
+			productRefGroup = F749544E233F6493003F7A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F749544C233F6493003F7A59 /* KLCTMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F749544B233F6493003F7A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F749545D233F64AB003F7A59 /* LaunchScreen.storyboard in Resources */,
+				F749545A233F64AB003F7A59 /* Assets.xcassets in Resources */,
+				F7495458233F6493003F7A59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		774643E4BB7B0B7B24A4F17A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KLCTMediator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C552F2833D49F00A67753B77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7495449233F6493003F7A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7495455233F6493003F7A59 /* ViewController.m in Sources */,
+				F7495460233F64AB003F7A59 /* main.m in Sources */,
+				F7495532234082C2003F7A59 /* Target_B.m in Sources */,
+				F74954DA23404FB1003F7A59 /* BViewController.m in Sources */,
+				F7495452233F6493003F7A59 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7495456233F6493003F7A59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7495457233F6493003F7A59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F749545B233F64AB003F7A59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F749545C233F64AB003F7A59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7495461233F64AB003F7A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7495462233F64AB003F7A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7495464233F64AB003F7A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFABA1996BCC6B12246557A /* Pods-KLCTMediator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QCWVCKATL;
+				INFOPLIST_FILE = KLCTMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray-ios.KLCTMediator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7495465233F64AB003F7A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB7F77BA44792888EC5685A /* Pods-KLCTMediator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QCWVCKATL;
+				INFOPLIST_FILE = KLCTMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ray-ios.KLCTMediator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7495448233F6493003F7A59 /* Build configuration list for PBXProject "KLCTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7495461233F64AB003F7A59 /* Debug */,
+				F7495462233F64AB003F7A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7495463233F64AB003F7A59 /* Build configuration list for PBXNativeTarget "KLCTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7495464233F64AB003F7A59 /* Debug */,
+				F7495465233F64AB003F7A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7495445233F6493003F7A59 /* Project object */;
+}

@@ -1,0 +1,33 @@
+PODS:
+  - AProject (2):
+    - Masonry
+  - AProject_Category (2):
+    - CTMediator
+    - Masonry
+  - CTMediator (25)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AProject (from `../AProject`)
+  - AProject_Category (from `../AProject_Category`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - Masonry
+
+EXTERNAL SOURCES:
+  AProject:
+    :path: "../AProject"
+  AProject_Category:
+    :path: "../AProject_Category"
+
+SPEC CHECKSUMS:
+  AProject: 4ac9ab299842da1ed8b8adb1b2189b01d17ed709
+  AProject_Category: cf4ef3592938e3230df39d279643c1147db10d37
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 2666dfc538ba37e9907eb74f2bb543b6ae6cab68
+
+COCOAPODS: 1.7.3
