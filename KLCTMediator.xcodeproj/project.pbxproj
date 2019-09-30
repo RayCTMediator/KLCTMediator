@@ -14,8 +14,6 @@
 		F749545A233F64AB003F7A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7495459233F64AB003F7A59 /* Assets.xcassets */; };
 		F749545D233F64AB003F7A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F749545B233F64AB003F7A59 /* LaunchScreen.storyboard */; };
 		F7495460233F64AB003F7A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F749545F233F64AB003F7A59 /* main.m */; };
-		F74954DA23404FB1003F7A59 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74954D923404FB1003F7A59 /* BViewController.m */; };
-		F7495532234082C2003F7A59 /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = F7495531234082C2003F7A59 /* Target_B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +30,6 @@
 		F749545C233F64AB003F7A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F749545E233F64AB003F7A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F749545F233F64AB003F7A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F74954D823404FB1003F7A59 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BViewController.h; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/KLCTMediator/KLCTMediator/BViewController/BViewController.h; sourceTree = "<group>"; };
-		F74954D923404FB1003F7A59 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BViewController.m; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/KLCTMediator/KLCTMediator/BViewController/BViewController.m; sourceTree = "<group>"; };
-		F7495530234082C2003F7A59 /* Target_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Target_B.h; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/KLCTMediator/KLCTMediator/Targets/Target_B.h; sourceTree = "<group>"; };
-		F7495531234082C2003F7A59 /* Target_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Target_B.m; path = ../../../../../../../../System/Volumes/Data/Users/zl/Desktop/ray/RayProject/KLCTMediator/KLCTMediator/Targets/Target_B.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +82,6 @@
 		F749544F233F6493003F7A59 /* KLCTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				F749552F23408290003F7A59 /* Targets */,
 				F74954D423404F7C003F7A59 /* AViewController */,
 				F74954D323404F7C003F7A59 /* BViewController */,
 				F7495450233F6493003F7A59 /* AppDelegate.h */,
@@ -107,8 +100,6 @@
 		F74954D323404F7C003F7A59 /* BViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F74954D823404FB1003F7A59 /* BViewController.h */,
-				F74954D923404FB1003F7A59 /* BViewController.m */,
 			);
 			path = BViewController;
 			sourceTree = "<group>";
@@ -118,15 +109,6 @@
 			children = (
 			);
 			path = AViewController;
-			sourceTree = "<group>";
-		};
-		F749552F23408290003F7A59 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				F7495530234082C2003F7A59 /* Target_B.h */,
-				F7495531234082C2003F7A59 /* Target_B.m */,
-			);
-			path = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +122,7 @@
 				F7495449233F6493003F7A59 /* Sources */,
 				F749544A233F6493003F7A59 /* Frameworks */,
 				F749544B233F6493003F7A59 /* Resources */,
-				C552F2833D49F00A67753B77 /* [CP] Embed Pods Frameworks */,
+				596784FE616DABC6F861FF51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +179,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		596784FE616DABC6F861FF51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		774643E4BB7B0B7B24A4F17A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,23 +218,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C552F2833D49F00A67753B77 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLCTMediator/Pods-KLCTMediator-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -245,8 +227,6 @@
 			files = (
 				F7495455233F6493003F7A59 /* ViewController.m in Sources */,
 				F7495460233F64AB003F7A59 /* main.m in Sources */,
-				F7495532234082C2003F7A59 /* Target_B.m in Sources */,
-				F74954DA23404FB1003F7A59 /* BViewController.m in Sources */,
 				F7495452233F6493003F7A59 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
