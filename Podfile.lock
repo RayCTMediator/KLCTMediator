@@ -1,39 +1,45 @@
 PODS:
-  - AProject (5):
+  - AProject (6):
     - BProject_Category
     - Masonry
-  - AProject_Category (7):
+  - AProject_Category (10):
     - CTMediator
   - BProject (4):
     - Masonry
-  - BProject_Category (4):
+  - BProject_Category (6):
     - CTMediator
-  - CTMediator (25)
+  - CTMediator (32)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - AProject
-  - AProject_Category
-  - BProject
+  - AProject (from `../AProject`)
+  - AProject_Category (from `../AProject_Category`)
+  - BProject (from `../BProject`)
+  - BProject_Category (from `../BProject_Category`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - CTMediator
     - Masonry
-  https://github.com/RayCTMediator/RayPrivatePods.git:
-    - AProject
-    - AProject_Category
-    - BProject
-    - BProject_Category
+
+EXTERNAL SOURCES:
+  AProject:
+    :path: "../AProject"
+  AProject_Category:
+    :path: "../AProject_Category"
+  BProject:
+    :path: "../BProject"
+  BProject_Category:
+    :path: "../BProject_Category"
 
 SPEC CHECKSUMS:
-  AProject: 78fe8f1c9078eba2683788a5ca0662b47b826ca5
-  AProject_Category: be22ae84456fb48690f3f0e6575044e5fd6ec71e
-  BProject: ef62b74fe12791c986375039656049910bc35b03
-  BProject_Category: 288cb1582d4915afc7a7a0a9ab9e1839dbfca573
-  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  AProject: e7c7ce6f695fdc3933a6ca5d62ee0876794436c0
+  AProject_Category: 5cd7593e1fa0b48fc5c485a6076e03608963dcbc
+  BProject: 6f34f2ea9596383698d571b30a1098e1fc777dab
+  BProject_Category: 0198e2e691c90fae36f68adc20acec4ded666709
+  CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 6d14763514d81e28e7d5caf2a99d5158e5c3c972
+PODFILE CHECKSUM: ad827dcbb6289a6ceb14d19f5361a8f8a107bee7
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.9.1

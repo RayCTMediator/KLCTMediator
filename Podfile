@@ -11,11 +11,14 @@ target 'KLCTMediator' do
 
   # Pods for KLCTMediator
 
-  pod 'AProject_Category' #, :path => '../AProject_Category'
+  pod 'AProject_Category'  , :path => '../AProject_Category'
+  
+  pod 'BProject_Category'  , :path => '../BProject_Category'
 
-  pod 'AProject'#, :path => '../AProject'
 
-  pod 'BProject'
+  pod 'AProject' , :path => '../AProject'
+
+  pod 'BProject' ,:path => '../BProject'
 
  
 end
